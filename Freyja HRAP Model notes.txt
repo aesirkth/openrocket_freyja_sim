@@ -1,0 +1,100 @@
+Parameters:
+
+__TANK__
+
+Inner Diameter: 140mm	 ✔
+Length: 800mm		 ✔
+Volume: (calculated autmoatically) ✔
+
+Injector Vapor Model: Real gas is reasonable	✔
+Injector Liquid Model: Incompressible is reasonable, good approximation ✔
+
+Injector Diameter:
+Injector Discharge Coefficient: Not sure
+Injector CdA: (calculated automatically)
+
+Oxidizer 1: N2O 	✔
+Oxidizer Temperature: Room temperature i guess?
+Oxidizer Pressure: Filling Tank (200 bar) --> 50 bar regulated --> Oxidizer tank
+Oxidizer Mass:
+Ozidizer Fill:
+
+
+__CHAMBER__
+
+Volume: 4.738E+6mm^3 - (95226.941 mm^3) - (1.77E+5 mm^3) - (2.675E+5 mm^3) - (9161E+5 mm^3) - (2.514E+6 mm^3) - (2.614E+5 mm^3) - (9.8349 mm^3) - 2*(36203.667 mm^3)
+C* Efficiency:
+
+
+__GRAIN__
+
+Grain Shape: Cylindrical
+Inner Diameter:
+Outer Diameter:
+Length:
+Rate law: Constant O/F
+Fixed O/F Ratio: ?
+Density: ?111111111111
+Component 1: ABS
+Mass Fraction 1:
+
+__NOZZLE__
+
+
+
+
+
+Injector Discharge COefficient (no idea)
+~ 0.66
+ideal mass flow rate / real mass flow rate
+Paper from stanford, Freyja uses the exact/similar injector geometry
+
+Oxidizer temperature: Depends, filling process different temperature than temp we start with
+Maybe start w/ 21 deg C, but it might be lower irl.
+
+N2O doesnt behave like an incompressible fluid, saturated state.
+
+Expected Oxidizer mass or fill%
+fill% usually 85-90%
+
+C* Ideal performance of propellant, how fast it will be ejected in ideal conditions.
+Thrust multiplier, depends on factors like what fuel we burn, etc
+~0.9-0.95
+C* Is actually the combustion efficiency, the nozzle efficiency is the conversion of pressure to thrust
+
+O/F Ratio? 3.5 sounds fine for now? 3.9 mentioned on Slab. 4 is the target
+
+Leave standard values, 0.995/0.970
+
+
+"Volume m^3 without grain"
+
+Temperature. 280K to 295K?
+
+
+
+
+29.7mm throat diameter
+57.4mm exit diameter
+36 holes - Injector
+1.5mm diameter per hole
+grain outer diam 109.75mm
+grain inner diam 38.9
+length ~306
+
+
+1kg payload, NOT the fusion360 model
+
+important to have mass properties
+
+
+Name : Outer Diameter? : Length : P : Propellant mass : Total loaded motor mass : Manufacturer Aesir
+
+
+
+oxidizer mass : 8.3kg
+fuel consumed: 2.0kg
+
+
+
+
